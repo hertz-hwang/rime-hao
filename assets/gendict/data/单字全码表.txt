@@ -379,7 +379,6 @@
 𢁠	acgj
 𪎔	acgm
 穹	acgx
-𢧟	achs
 𤝠	achs
 𫙒	achs
 𥥈	acis
@@ -416,6 +415,7 @@
 𬻱	acud
 𭘓	acuj
 𡆶	acuk
+𢧟	acuo
 𩵪	acuv
 𩺅	acvc
 𢄛	acvk

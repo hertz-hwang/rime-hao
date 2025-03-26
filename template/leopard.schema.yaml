@@ -85,6 +85,7 @@ engine:
     - script_translator@hao_pinyin_lookup
     - table_translator@stroke_lookup
     - lua_translator@*ace.os_tools*os_env_translator
+    - lua_translator@*ace.os_tools*os_run_translator
     - lua_translator@*ace.helper
   filters:
     - lua_filter@*ace.single_char_only
@@ -151,10 +152,11 @@ leopard_postpone_fullcode:
     # max_index: 6  # 最大后置位置，默认为 4
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: ;zyxwvutsrqponmlkjihgfedcba
   delimiter: " `'"
   max_code_length: 4
-  # auto_select: true
+  auto_select: true
+  auto_select_pattern: ^;\w+
   algebra:
     - xform/^\*//  # 特码以星号开头，以便在全码后置脚本中区分，以防识别为全码
 
@@ -266,4 +268,5 @@ recognizer:
     hao_pinyin_lookup: "^`P([a-z]+'?)*$"
     stroke_lookup:      "^`B([a-z]+'?)*$"
     os_env: '^env/\w+'
+    os_run: '^run/\w+'
     helper: '^help/$'

@@ -39141,7 +39141,7 @@
 𢧜	(十戈口丿土,PsAgKkEt,,CJK-B)
 𢧝	(㠯戈,ShTiAg,fèn,CJK-B)
 𢧞	(舟,MuQo,miè,CJK-B)
-𢧟	(戈弓丨,AgCgHs,,CJK-B)
+𢧟	(戈弓厂丨丶丶丶,AgCgUcOd,,CJK-B)
 𢧠	(日㇗⺝,UrAeFyAg,zè,CJK-B)
 𢧡	(⺊一示戊,FbDiLsMu,,CJK-B)
 𢧢	(十日十人戈,PsUrPsAg,,CJK-B)

@@ -10,10 +10,11 @@ show_notifications: true
 show_notifications_time: 
 global_ascii: false
 style:
+  capture_type: none
   inline_preedit: false
-  display_tray_icon: false
+  display_tray_icon: true
   mark_text: ""
-  vertical_text_left_to_right: true
+  #vertical_text_left_to_right: true
   # #候选字体
   font_face: "Segoe UI Emoji, LXGW WenKai GB Screen, 98WB-0, 98WB-1, 98WB-2, 98WB-3, 98WB-U, 98WB-V"
   font_point: 16 #主字体字号
@@ -24,13 +25,13 @@ style:
   label_font_face: "Segoe UI Emoji, LXGW WenKai GB Screen, 98WB-0, 98WB-1, 98WB-2, 98WB-3, 98WB-U, 98WB-V"
   label_font_point: 14 #候选前编号标志字号
   ascii_tip_follow_cursor: true
-  horizontal: true
+  #horizontal: true
   antialias_mode: default
-  vertical_text: true
+  vertical_text: false
   fullscreen: false
-  preedit_type: composition
+  preedit_type: input
   vertical_text_with_wrap: false
-  vertical_auto_reverse: false
+  vertical_auto_reverse: true
   label_format: "%s."
   color_scheme: "Customed"
   mouse_hover_ms: 0
@@ -40,28 +41,30 @@ style:
   click_to_capture: false
   enhanced_position: true
   hover_type: none
-  layout:
-    margin_y: 12
-    shadow_offset_x: "3"
-    shadow_offset_y: "3"
-    border: 1
-    hilite_padding: 5
-    min_height: 0
-    hilite_spacing: 10
-    spacing: 18
-    corner_radius: 8
-    shadow_radius: 3
-    round_corner: 8
-    candidate_spacing: 15
-    min_width: 80
-    max_width: 2800
-    border_width: 1
-    margin_x: 12
-    type: horizontal
-    max_height: 2800
-    align_type: center
-    hilite_padding_x: 5
-    hilite_padding_y: 5
+  layout: {align_type: center, border_width: 0, border_height: 0, candidate_spacing: 8, corner_radius: 5, hilite_padding: 2, hilite_spacing: 5, line_spacing: 8, margin_x: 5, margin_y: 5, min_height: 0, min_width: 95, round_corner: 5, shadow_offset_x: 4, shadow_offset_y: 4, shadow_radius: 5, enhanced_position: bool}
+
+  #layout:
+  #  margin_y: 12
+  #  shadow_offset_x: "3"
+  #  shadow_offset_y: "3"
+  #  border: 1
+  #  hilite_padding: 5
+  #  min_height: 0
+  #  hilite_spacing: 10
+  #  spacing: 18
+  #  corner_radius: 8
+  #  shadow_radius: 3
+  #  round_corner: 8
+  #  candidate_spacing: 15
+  #  min_width: 80
+  #  max_width: 2800
+  #  border_width: 1
+  #  margin_x: 12
+  #  type: horizontal
+  #  max_height: 2800
+  #  align_type: center
+  #  hilite_padding_x: 5
+  #  hilite_padding_y: 5
 preset_color_schemes:
   Customed:
     name: "Customized"
